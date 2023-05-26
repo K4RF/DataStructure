@@ -1,3 +1,4 @@
+package Ch1;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,8 +8,9 @@ public class fileInput {
         String[] name = new String[1000];
         String[] number = new String[1000];
         int n =0;
+        String fileName = "input.txt";
         try{
-            Scanner inFile = new Scanner(new File("input.txt"));
+            Scanner inFile = new Scanner(new File(fileName));
             while(inFile.hasNext()){
                 name[n] = inFile.next();
                 number[n] = inFile.next();
