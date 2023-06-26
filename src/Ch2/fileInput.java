@@ -1,4 +1,4 @@
-package Ch1;
+package Ch2;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
